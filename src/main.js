@@ -14,7 +14,7 @@ FastClick.attach(document.body)
 
 // 图片懒加载
 Vue.use(VueLazyload,{
-  loading:require('common/image/default.jpg')
+  loading: 'common/image/default.jpg'
 })
 
 /* eslint-disable no-new */
